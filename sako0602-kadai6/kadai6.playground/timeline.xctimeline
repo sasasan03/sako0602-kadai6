@@ -2,5 +2,9 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sakohiro/Desktop/sako0602-kadai6/sako0602-kadai6/kadai6.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=299&amp;EndingColumnNumber=39&amp;EndingLineNumber=17&amp;StartingColumnNumber=39&amp;StartingLineNumber=17&amp;Timestamp=692013310.943694"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
