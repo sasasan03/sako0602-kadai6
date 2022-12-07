@@ -31,7 +31,7 @@ struct ContentView: View {
             .padding()
             Button("判定!"){
                 showingAlert = true
-                judgement(inputNnm: &currentValue)
+                judgement(inputNnm: currentValue)
             }
         }
         .alert(
@@ -42,14 +42,12 @@ struct ContentView: View {
             randomValue = arc4random_uniform(100)
             }
         } message: {
-            VStack{
                 let intCurrentValue = Int(currentValue)
                 Text("\(alertMessage)\n あなたの値：\(intCurrentValue)")
-            }
         }
     }
     
-    func judgement(inputNnm: inout Double) {
+    func judgement(inputNnm: Double) {
         let doubleRandomValue = Double(randomValue)
         if doubleRandomValue == inputNnm {
             alertMessage = "あたり！"
