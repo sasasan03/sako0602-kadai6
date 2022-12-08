@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var randomValue: UInt32 = arc4random_uniform(100)
+    @State private var randomValue = Int.random(in: 0...100)
     @State private var currentValue: Double = 50
     @State private var showingAlert = false
     @State private var alertMessage = ""
@@ -35,16 +35,19 @@ struct ContentView: View {
             }
         }
         .alert(
-            Text("結果"),
-            isPresented: $showingAlert
-        ) {
-            Button("再挑戦"){
-            randomValue = arc4random_uniform(100)
-            }
-        } message: {
+            "結果",
+            isPresented: $showingAlert,
+            presenting: alertMessage,
+            actions: { _ in
+                Button("再挑戦") {
+                    randomValue = Int.random(in: 0...100)
+                }
+            },
+            message: { message in
                 let intCurrentValue = Int(currentValue)
-                Text("\(alertMessage)\n あなたの値：\(intCurrentValue)")
-        }
+                Text("\(message)\n あなたの値：\(intCurrentValue)")
+            }
+        )
     }
     
     func judgement(inputNnm: Double) {
