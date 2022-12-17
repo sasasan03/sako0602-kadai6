@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694F62CD2948BD0F00C2BF7E /* kai1110.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F62CC2948BD0F00C2BF7E /* kai1110.swift */; };
 		69B6D2B5293DF8A20060E433 /* ExperimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B6D2B4293DF8A20060E433 /* ExperimentView.swift */; };
 		69F1F4AA293C4A3800E5A1CD /* sako0602_kadai6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F1F4A9293C4A3700E5A1CD /* sako0602_kadai6App.swift */; };
 		69F1F4AC293C4A3800E5A1CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F1F4AB293C4A3800E5A1CD /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		694F62CC2948BD0F00C2BF7E /* kai1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kai1110.swift; sourceTree = "<group>"; };
 		69B6D2B4293DF8A20060E433 /* ExperimentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentView.swift; sourceTree = "<group>"; };
 		69F1F4A6293C4A3700E5A1CD /* sako0602-kadai6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sako0602-kadai6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F1F4A9293C4A3700E5A1CD /* sako0602_kadai6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sako0602_kadai6App.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				69F1F4A9293C4A3700E5A1CD /* sako0602_kadai6App.swift */,
 				69F1F4AB293C4A3800E5A1CD /* ContentView.swift */,
+				694F62CC2948BD0F00C2BF7E /* kai1110.swift */,
 				69B6D2B4293DF8A20060E433 /* ExperimentView.swift */,
 				69F1F4D3293C4C5600E5A1CD /* kadai6.playground */,
 				69F1F4AD293C4A3B00E5A1CD /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694F62CD2948BD0F00C2BF7E /* kai1110.swift in Sources */,
 				69B6D2B5293DF8A20060E433 /* ExperimentView.swift in Sources */,
 				69F1F4AC293C4A3800E5A1CD /* ContentView.swift in Sources */,
 				69F1F4AA293C4A3800E5A1CD /* sako0602_kadai6App.swift in Sources */,
