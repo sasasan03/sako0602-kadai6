@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct kai1110: View {
+struct VarKa: View {
     @State private var randomNumber = Int.random(in: 1...100)
        @State private var answerNumber: Double = 50
        @State private var isAlert = false
@@ -55,8 +55,8 @@ struct kai1110: View {
     }
 }
 
-struct kai1110_Previews: PreviewProvider {
+struct VarKa_Previews: PreviewProvider {
     static var previews: some View {
-        kai1110()
+        VarKa()
     }
 }
